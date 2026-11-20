@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python-finance-tools"
+version = "0.1.0"
+description = "Dependency-free, tested Python utilities for common financial calculations"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {file = "LICENSE"}
+authors = [{name = "pierreconte512-creator"}]
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/pierreconte512-creator/python-finance-tools"
+Issues = "https://github.com/pierreconte512-creator/python-finance-tools/issues"
+
+[tool.setuptools.packages.find]
+include = ["finance_tools*"]
